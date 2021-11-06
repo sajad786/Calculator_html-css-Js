@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/calcuStyle.css">
+	<title>calculator </title>
+
+
+</head>
+
+<body>
+
+	<div class="formsStyle">
+	<form id="forms" action="" name="forms">
+    
+	    <input type="text" id="answer" value="">
+	    
+	    <br><br>
+	    
+	    <input id="clr" class="btn btn-danger" type="button" value="Clear" onclick="forms.answer.value = '' "  >
+	    <input id="aqual" class="btn btn-primary" type="button" value="=" onclick="forms.answer.value = eval(forms.answer.value)"  >
+
+	    
+	    <br><br>
+	    
+	    <input class="btn btn-success" type="button" value="1" onclick="forms.answer.value += '1' "  >
+	    <input class="btn btn-success" type="button" value="2" onclick="forms.answer.value += '2' "  >
+	    <input class="btn btn-success" type="button" value="3" onclick="forms.answer.value += '3' "  >
+	    <input class="btn btn-success" type="button" value="%" onclick="forms.answer.value += '%' "  >
+
+	    
+	    <br><br>
+	    
+	    <input class="btn btn-success" type="button" value="4" onclick="forms.answer.value += '4' "  >
+	    <input class="btn btn-success" type="button" value="5" onclick="forms.answer.value += '5' "  >
+	    <input class="btn btn-success" type="button" value="6" onclick="forms.answer.value += '6' "  >
+	    <input class="btn btn-success" type="button" value="/" onclick="forms.answer.value += '/' "  >
+        
+        <br><br>
+        
+	    <input class="btn btn-success" type="button" value="7" onclick="forms.answer.value += '7' "  >
+	    <input class="btn btn-success" type="button" value="8" onclick="forms.answer.value += '8' "  >
+	    <input class="btn btn-success" type="button" value="9" onclick="forms.answer.value += '9' "  >
+	    <input class="btn btn-success" type="button" value="()" onclick="forms.answer.value += '()' "  >
+	    
+	    <br><br>
+	    
+	    <input class="btn btn-success" type="button" value="-" onclick="forms.answer.value += '-' "  >
+	    <input class="btn btn-success" type="button" value="0" onclick="forms.answer.value += '0' "  >
+	    <input class="btn btn-success" type="button" value="*" onclick="forms.answer.value += '*' "  >
+	    <input class="btn btn-success" type="button" value="+" onclick="forms.answer.value += '+' "  >
+
+	    
+	</form>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script src="js/calcuScript.js" ></script>
+
+</body>
+
+</html>

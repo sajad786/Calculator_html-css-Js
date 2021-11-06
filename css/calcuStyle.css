@@ -1,0 +1,28 @@
+.formsStyle{
+    width:370px;
+    height:500px;
+    border:red solid 2px;
+    margin: 150px auto;
+    
+}
+#forms{
+ margin:20px;   
+}
+.btn{
+    padding:20px;
+    
+    width:75px;
+    
+}
+
+#answer{
+    height:70px;
+    width : 305px;
+}
+
+#clr{
+    width:200px;
+}
+#aqual{
+    width:105px;
+}
